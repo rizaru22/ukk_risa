@@ -12,7 +12,7 @@ $cek=mysqli_num_rows($sql);
  	{
 		$data=mysqli_fetch_array($sql);
 		session_start();
-		$_SESSION['nama']=$data['nama'];
+		$_SESSION['nama']=$data['Nama'];
 		$_SESSION['nik']=$data['nik'];
 		header('location:masyarakat.php');
 	}

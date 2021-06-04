@@ -1,5 +1,6 @@
 <?php
     session_start();
+    var_dump($_SESSION['nama']);
     if (empty($_SESSION['nama']))
     {
         die("SILAHKAN REGISTER TERLEBIH DAHULU");
